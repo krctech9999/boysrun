@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.boysrun"
+    android:versionCode="1510071828"
+    android:versionName="1.0.0.1510071828" >
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:name=".misc.GlobalVar"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name_boysrun"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".InitActivity"
+            android:label="@string/app_name_boysrun"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetServerIpActivity"
+            android:label="@string/app_name_boysrun_serverip"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EntryActivity"
+            android:label="@string/app_name_boysrun"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".BluActivity"
+            android:label="@string/title_activity_entry"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".DataActivity"
+            android:label="@string/title_activity_data"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".SelectActivity"
+            android:label="@string/title_activity_select"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".ChartActivity"
+            android:label="@string/title_activity_chart"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/title_activity_user"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".AddUserActivity"
+            android:label="@string/title_activity_add_user" 
+            android:launchMode="singleInstance">
+        </activity>
+        <activity
+            android:name=".FunctionMenuActivity"
+            android:label="@string/title_activity_function_menu"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name=".SportModeActivity"
+            android:label="@string/title_activity_sport_mode"
+            android:launchMode="singleInstance" >
+        </activity>
+        
+        <!-- (mark)
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:launchMode="singleInstance" 
+            android:theme="@style/Transparent" >"
+        </activity>
+        
+        -->
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,265 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a02"
+    android:orientation="vertical"
+    tools:context="com.example.achartdemo.AChartDemoActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/e01" />
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:text="返回"
+            android:textColor="@color/color_click_method_button_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:textColor="@color/color_click_method_button_selector"
+            android:text="数值总览" />
+
+        <Button
+            android:id="@+id/btn_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:textColor="@color/color_click_method_button_selector"
+            android:text="历史纪录" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/e02_top"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/img_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/e05_01"/>
+
+                <TextView
+                    android:id="@+id/txv_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="运动里程" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txv_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="0 km" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/img_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/e05_02"/>
+
+                <TextView
+                    android:id="@+id/txv_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="运动时数" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txv_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/b10" />
+
+            <TextView
+                android:id="@+id/txv_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/img_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:background="@drawable/e05_03"/>
+
+                <TextView
+                    android:id="@+id/txv_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="卡路里消耗" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txv_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="0 cal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/img_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/e05_04" />
+
+                <TextView
+                    android:id="@+id/txv_g"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="运动步数" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txv_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txv_chart_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom" />
+
+        <LinearLayout
+            android:id="@+id/LL_SWITCH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="50sp"
+            android:background="@drawable/b05" >
+
+            <Button
+                android:id="@+id/btn_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/b06_01"
+                android:gravity="start|bottom|center_horizontal"
+                android:text="年 Year"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/transparent"
+                android:gravity="start|bottom|center_horizontal"
+                android:text="月 Month"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b04_left_selector" />
+
+        <LinearLayout
+            android:id="@+id/llBarChart"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b04_right_selector" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="img_desc">img_desc</string>
+    <string name="app_name_boysrun">BoysRun</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="title_activity_init">InitActivity</string>
+    <string name="link_network_first">請先連接網路</string>
+    <string name="title_activity_add_user">AddUserActivity</string>
+    <string name="title_activity_function_menu">FunctionMenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sport_mode">SportModeActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    
+    <string name="msg_game_start">提示:  比赛即将开始，GO!! GO!! GO!! ~</string>
+    
+    <string name="msg_game_halfway_win">系统提示: 太棒了 ~ 你目前领先对手 ~~ 做得好，保持下去~~!!!</string>
+    <string name="msg_game_halfway_lose">哎呀 ~ 你目前处于落后，再加把劲~~! 加油~加油~!!!</string>
+    <string name="msg_game_halfway_tie">系统提示:目前战况激烈，两位选手不分上下~ ! 加油~加油~!!!</string>
+    
+    <string name="msg_game_nearend_win">叫我第一名啦 ~~ 最后冲刺 !!!</string>
+    <string name="msg_game_nearend_lose">你目前有点落后喔! 别把冠军拱手让人了 !! 冲啊~!!!</string>
+    <string name="msg_game_nearend_tie_win">你暂时领先对手了 !! 坚持下去 ~~ 胜利的荣耀就在眼前!!!</string>
+    <string name="msg_game_nearend_tie_lose">你现在只落后一点点而已啊!! 再加把劲 ~~ 反超对手吧!!!</string>
+    <string name="msg_game_nearend_tie_tie">系统提示: 两位选手并驾齐驱，到底谁能胜出???</string>
+    
+    <string name="msg_game_norun_hint">提示:  你累了吗 ? 比赛还在继续喔~</string>
+    
+    <string name="toast_disconnect_retry">中断连线尝试重连</string>
+    <string name="toast_connect_success">连线成功</string>
+    <string name="toast_connect_fail"> 连线失败</string>
+    <string name="app_name_boysrun_serverip">BoysRunServerIp</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ULAYOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/uimg"
+            android:contentDescription="@string/img_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/L_IMG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/a07"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+            
+            
+         </LinearLayout>
+            
+        <LinearLayout
+            android:id="@+id/L_LEVEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/a07"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|bottom|center_horizontal" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start|top|center_horizontal"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txv_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

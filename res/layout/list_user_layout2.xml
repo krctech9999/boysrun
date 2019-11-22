@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:background="@drawable/b04"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/LL_IMG"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/uimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/img_desc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_DATA"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|bottom|center_horizontal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|top|center_horizontal" />
+
+        <TextView
+            android:id="@+id/txv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|top|center_horizontal" />
+
+        <TextView
+            android:id="@+id/txv_calorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|top|center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>
